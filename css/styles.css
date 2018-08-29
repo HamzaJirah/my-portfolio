@@ -27,3 +27,9 @@ body {
   height: 100px;
   margin-top: 5px;
 }
+
+#content {
+  border: 1px solid #000;
+  height: 100px;
+  margin-top: 5px;
+}
