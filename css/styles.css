@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: rgb(126, 123, 163)
+}
+
 /*WRAPPER*/
 
 #wrapper {
