@@ -23,6 +23,7 @@ body {
 
 #navbar #menu li {
   display: inline-block;
+  float: right;
 }
 
 /* Banner */
