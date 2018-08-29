@@ -16,3 +16,8 @@ body {
   height: 600px;
   margin: 20px;
 }
+
+#navbar {
+  border: 1px solid #000;
+  height: 100px;
+}
