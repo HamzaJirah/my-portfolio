@@ -17,8 +17,13 @@ body {
 
 /* Navbar */
 #navbar {
-  border: 1px solid #000;
-  height: 100px;
+  border: 1px solid rgb(7, 1, 39);
+  background: rgb(7, 1, 39);
+  
+}
+
+div #logo {
+
 }
 
 #navbar #menu li {
