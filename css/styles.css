@@ -21,6 +21,10 @@ body {
   height: 100px;
 }
 
+#navbar #menu li {
+  display: inline-block;
+}
+
 /* Banner */
 #banner {
   border: 1px solid #000;
