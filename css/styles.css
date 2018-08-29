@@ -32,9 +32,15 @@ body {
 
 /* Content */
 #content {
-  border: 1px solid #000;
-  height: 250px;
+  /* border: 1px solid #000; */
+  /* height: 250px; */
   margin-top: 5px;
+}
+
+#content .content-inner {
+  border: 1px solid #000;
+  height: 50px;
+  /* margin-top: 5px; */
 }
 
 /* Footer */
@@ -43,3 +49,4 @@ body {
   height: 100px;
   margin-top: 5px;
 }
+
