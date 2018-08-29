@@ -40,7 +40,7 @@ body {
 #content .content-inner {
   border: 1px solid #000;
   height: 50px;
-  /* margin-top: 5px; */
+  width: 49%;
 }
 
 /* Footer */
