@@ -95,6 +95,11 @@ ul li {
   margin-top: 5px;
 }
 
+.content-inner p {
+  color: #fff;
+  text-align: center;
+}
+
 /* Footer */
 #footer {
   border: 1px solid #000;
