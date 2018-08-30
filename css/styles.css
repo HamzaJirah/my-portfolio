@@ -18,15 +18,16 @@ body {
 /* Navbar */
 #navbar {
   background: #1d1d45;
-}
-
-div #logo img {
-  height: 54px;
+  overflow: hidden;
 }
 
 #navbar #menu li {
+  list-style-type: none;
   display: inline-block;
   float: right;
+  /* margin-right: 40px;
+  width: 5%; */
+
 }
 
 /* Banner */
