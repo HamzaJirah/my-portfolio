@@ -70,7 +70,7 @@ ul li {
 }
 
 #banner a:hover{
-  opacity: 0.8;
+  opacity: 1;
   background: none;
   border: 1px solid  #375cbcae;
 }
