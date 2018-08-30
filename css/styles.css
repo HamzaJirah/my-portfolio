@@ -61,10 +61,10 @@ ul li {
   text-decoration: none;
   color: #fff;
   display: block;
-  width: 110px;
+  width: 150px;
   background: #375cbcae;
   margin: 20px auto;
-  padding: 4px;
+  padding: 10px;
   text-align: center;
   border-radius: 5px;
 }
@@ -83,12 +83,11 @@ ul li {
 
 #content .content-inner {
   border: 1px solid #000;
-  height: 50px;
   width: 49%;
   float: left;
 }
 
-.content-inner:nth-child(even){
+.content-inner:nth-child(odd){
   margin-left: 2%;
 }
 
