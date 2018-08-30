@@ -22,6 +22,11 @@ body {
   border-bottom: 3px solid #c08703;
 }
 
+#navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
 #navbar #menu li {
   list-style-type: none;
   float: right;
