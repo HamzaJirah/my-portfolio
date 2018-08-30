@@ -29,7 +29,7 @@ body {
 
 #navbar #menu li {
   list-style-type: none;
-  float: right;
+  float: left;
 }
 
 #menu a {
