@@ -24,7 +24,7 @@ body {
 
 #navbar #logo {
   float: left;
-  margin: 0;
+  padding-top: ;
 }
 
 #navbar ul {
@@ -35,7 +35,7 @@ body {
 ul li {
   list-style-type: none;
   float: left;
-  padding: 0 20px 0 20px;
+  padding: 20px;
 }
 
 #menu {
