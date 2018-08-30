@@ -47,7 +47,7 @@ ul li {
 
 /* Banner */
 #banner {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   /* margin-top: 5px; */
   background: linear-gradient(#1d1d45, rgb(213, 213, 222));
 }
@@ -86,6 +86,7 @@ ul li {
   border: 1px solid #000;
   width: 49%;
   float: left;
+  overflow: hidden;
 }
 
 .content-inner:nth-child(odd){
