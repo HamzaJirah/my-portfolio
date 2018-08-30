@@ -1,3 +1,5 @@
 Llogo.png
 logo.png
 Thumbs.db
+/node_modules
+package-lock.json
