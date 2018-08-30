@@ -11,9 +11,6 @@ body {
 
 /*WRAPPER*/
 
-#wrapper {
-  /* margin: 20px; */
-}
 
 /* Navbar */
 #navbar {
@@ -24,7 +21,7 @@ body {
 
 #navbar #logo {
   float: left;
-  padding-top: ;
+  padding-top: 5px;
 }
 
 #navbar ul {
