@@ -22,6 +22,10 @@ body {
   border-bottom: 3px solid #c08703;
 }
 
+#navbar #logo {
+  float: left;
+}
+
 #navbar ul {
   margin: 0;
   padding: 0;
