@@ -27,7 +27,11 @@ body {
   float: right;
   /* margin-right: 40px;
   width: 5%; */
+}
 
+#menu a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Banner */
