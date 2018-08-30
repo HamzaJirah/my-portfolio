@@ -44,7 +44,7 @@ ul li {
 #banner {
   border: 1px solid #000;
   margin-top: 5px;
-  background: linear-gradient(#1d1d45, #fff);
+  background: linear-gradient(#1d1d45, rgb(114, 114, 116));
 }
 
 #banner h1, h3 {
