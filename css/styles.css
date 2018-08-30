@@ -43,8 +43,13 @@ ul li {
 /* Banner */
 #banner {
   border: 1px solid #000;
-  height: 150px;
+  height: 100px;
   margin-top: 5px;
+  background: linear-gradient(#1d1d45, #fff);
+}
+
+#banner h1 {
+  color: #fff;
 }
 
 /* Content */
