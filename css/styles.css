@@ -25,8 +25,6 @@ body {
 #navbar #menu li {
   list-style-type: none;
   float: right;
-  /* margin-right: 40px;
-  width: 5%; */
 }
 
 #menu a {
