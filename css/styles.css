@@ -13,13 +13,15 @@ body {
 
 /* Navbar Background */
 
-
-
 /* Navbar */
 #navbar {
   background: #1d1d45;
   overflow: hidden;
   border-bottom: 3px solid #c08703;
+}
+
+#navbar:hover{
+  background: "none";
 }
 
 #navbar #logo {
