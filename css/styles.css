@@ -64,15 +64,17 @@ ul li {
   width: 150px;
   background: #375cbcae;
   margin: 20px auto;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
   border-radius: 5px;
+  /* margin-bottom: 10px; */
 }
 
 #banner a:hover{
   opacity: 1;
   background: none;
   border: 1px solid  #375cbcae;
+  text-transform: uppercase;
 }
 
 /* Content */
