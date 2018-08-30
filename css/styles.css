@@ -43,13 +43,13 @@ ul li {
 /* Banner */
 #banner {
   border: 1px solid #000;
-  height: 100px;
   margin-top: 5px;
   background: linear-gradient(#1d1d45, #fff);
 }
 
-#banner h1 {
+#banner h1, h3 {
   color: #fff;
+  text-align: center;
 }
 
 /* Content */
@@ -67,6 +67,10 @@ ul li {
 
 .content-inner:nth-child(even){
   margin-left: 2%;
+}
+
+#content .top-gap {
+  margin-top: 5px;
 }
 
 /* Footer */
