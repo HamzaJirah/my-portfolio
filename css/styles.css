@@ -78,7 +78,6 @@ ul li {
 
 /* Content */
 #content {
-  /* margin: 5px; */
   overflow: hidden;
   background: url(../images/background-image.jpg);
   background-attachment: fixed;
