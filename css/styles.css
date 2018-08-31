@@ -85,6 +85,11 @@ ul li {
   /* clear: both; */
 }
 
+#content h1 {
+  text-align: center;
+  color: #fff;
+}
+
 #content .content-inner {
   border: 1px solid #000;
   display: inline-block;
