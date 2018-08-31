@@ -81,7 +81,7 @@ ul li {
 #content {
   margin-top: 5px;
   overflow: hidden;
-  background: linear-gradient(#1d1d45, rgb(213, 213, 222));
+  background: linear-gradient(#1d1d45, grey);
   /* clear: both; */
 }
 
