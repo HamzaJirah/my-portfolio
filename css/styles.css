@@ -127,6 +127,7 @@ ul li {
 #social-icons, #copyright {
   float: left;
   width: 48%;
+  padding: 20px;
 }
 
 
