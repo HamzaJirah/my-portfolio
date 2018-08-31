@@ -124,6 +124,11 @@ ul li {
   text-decoration: none;
 }
 
+#social-icons, #copyright {
+  float: left;
+  width: 48%;
+}
+
 
 
 
