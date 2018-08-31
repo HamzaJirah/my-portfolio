@@ -79,7 +79,7 @@ ul li {
 
 /* Content */
 #content {
-  margin-top: 5px;
+  margin: 5px;
   overflow: hidden;
   background: url(../images/background-image.jpg);
   background-attachment: fixed;
@@ -95,6 +95,8 @@ ul li {
 #content .content-inner {
   display: inline-block;
   width: 49.8%;
+  background: #1d1d45;
+  opacity: .6;
 }
 
 #content .top-gap {
