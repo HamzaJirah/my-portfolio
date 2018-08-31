@@ -82,17 +82,13 @@ ul li {
   margin-top: 5px;
   overflow: hidden;
   background: linear-gradient(#1d1d45, rgb(213, 213, 222));
+  /* clear: both; */
 }
 
 #content .content-inner {
   border: 1px solid #000;
-  width: 49%;
-  float: left;
-  overflow: hidden;
-}
-
-.content-inner:nth-child(odd){
-  margin-left: 2%;
+  display: inline-block;
+  width: 49.8%;
 }
 
 #content .top-gap {
