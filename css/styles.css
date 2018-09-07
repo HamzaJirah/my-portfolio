@@ -111,7 +111,11 @@ ul li {
 #education {
   border: 1px solid #fff;
   height: 100px;
+  margin-top: 5px;
+  overflow: hidden;
 }
+
+#education div 
 
 /* Footer */
 #footer {
