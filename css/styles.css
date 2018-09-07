@@ -110,12 +110,16 @@ ul li {
 /* Education */
 #education {
   border: 1px solid #fff;
-  height: 100px;
+  /* height: 100px; */
   margin-top: 5px;
   overflow: hidden;
 }
 
-#education div 
+#education div {
+  border: 1px solid #fff;
+  height: 100px;
+  width: 50%;
+}
 
 /* Footer */
 #footer {
