@@ -51,7 +51,7 @@ ul li {
   background: linear-gradient(#1d1d45, rgb(213, 213, 222));
 }
 
-#banner h1, h3, h4, h5 {
+#banner h1, h2, h3, h4, h5 {
   color: #fff;
   text-align: center;
 }
