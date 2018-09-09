@@ -94,8 +94,8 @@ ul li {
 #content .content-inner {
   display: inline-block;
   width: 49.8%;
-  background: #1d1d45;
-  opacity: .6;
+  /* background: #1d1d45;
+  opacity: .6; */
 }
 
 #content .top-gap {
