@@ -121,7 +121,7 @@ ul li {
 }
 
 #education div {
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   /* height: 100px; */
   width: 50%;
   float: left;
