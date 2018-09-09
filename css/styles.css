@@ -80,7 +80,7 @@ ul li {
 #content {
   overflow: hidden;
   padding: 5px;
-  background: url(../images/background-image.jpg);
+  background: url(../images/background-image.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,7 +114,7 @@ ul li {
   /* height: 100px; */
   padding: 20px;
   background: linear-gradient(#1d1d45, grey, lightblue);
-  margin-top: 5px;
+  /* margin-top: 5px; */
   overflow: hidden;
 }
 
