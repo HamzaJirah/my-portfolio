@@ -111,6 +111,7 @@ ul li {
 #education {
   /* border: 1px solid #fff; */
   /* height: 100px; */
+  padding: 20px;
   background: linear-gradient(#1d1d45, grey, lightblue);
   margin-top: 5px;
   overflow: hidden;
