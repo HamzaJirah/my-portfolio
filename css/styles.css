@@ -211,6 +211,10 @@ label {
     padding: 10px;
   }
 
+  #menu a{
+    text-align: center;
+  }
+
   #content .content-inner {
     display: inline-block;
     width: 100%;
