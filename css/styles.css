@@ -49,6 +49,7 @@ ul li {
 #banner {
   /* margin-top: 5px; */
   background: linear-gradient(#1d1d45, rgb(213, 213, 222));
+  padding: 100px;
 }
 
 #banner h1, h2, h3, h4, h5 {
@@ -79,7 +80,7 @@ ul li {
 /* Content */
 #content {
   overflow: hidden;
-  padding: 5px;
+  padding: 20px;
   background: url(../images/background-image.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -156,8 +157,3 @@ ul li {
 #copyright p {
  color: #fff;
 }
-
-
-
-
-
