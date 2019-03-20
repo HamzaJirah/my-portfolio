@@ -96,6 +96,7 @@ ul li {
 #content .content-inner {
   display: inline-block;
   width: 49.8%;
+  padding-top: 30px;
   /* background: #1d1d45;
   opacity: .6; */
 }
@@ -111,12 +112,13 @@ ul li {
 
 /* Education */
 #education {
-  /* border: 1px solid #fff; */
-  /* height: 100px; */
-  padding: 20px;
+  padding: 40px;
   background: linear-gradient(#1d1d45, grey, lightblue);
-  /* margin-top: 5px; */
   overflow: hidden;
+}
+
+#educationUni, #educationMobile {
+  padding: 30px;
 }
 
 #education h1 {
@@ -125,12 +127,42 @@ ul li {
 }
 
 #education div {
-  /* border: 1px solid #fff; */
-  /* height: 100px; */
   width: 50%;
   float: left;
 }
 
+#contact-form {
+  border-radius: 5px;
+  background-color: #1d1d45;
+  padding: 20px;
+  float: none;
+}
+
+#contact-form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+label {
+  color: #fff;
+}
 /* Footer */
 #footer {
   padding: 5px;
@@ -156,4 +188,26 @@ ul li {
 
 #copyright p {
  color: #fff;
+}
+
+@media (max-width:499px) {
+  #menu ul li {
+    display: block;
+    width: 50%;
+    padding: 10px;
+  }
+
+  #content .content-inner {
+    display: inline-block;
+    width: 100%;
+    padding-top: 35px;
+    /* background: #1d1d45;
+    opacity: .6; */
+  }
+
+  #education div {
+    width: 100%;
+    float: none;
+    padding-top: 15px;
+  }
 }
