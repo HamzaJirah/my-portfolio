@@ -224,4 +224,10 @@ label {
     float: none;
     padding-top: 15px;
   }
+
+  #social-icons, #copyright {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
 }
