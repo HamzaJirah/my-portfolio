@@ -148,6 +148,17 @@ ul li {
   box-sizing: border-box;
 }
 
+textarea {
+  width: 100%;
+  /* height: 150px; */
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
 button {
   width: 100%;
   background-color: #4CAF50;
@@ -191,6 +202,9 @@ label {
 }
 
 @media (max-width:499px) {
+  h1 {
+    font-size: 1.5em;
+  }
   #menu ul li {
     display: block;
     width: 50%;
