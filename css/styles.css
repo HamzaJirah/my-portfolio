@@ -120,31 +120,47 @@ text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 
   overflow: hidden;
 }
 
-#educationUni, #educationMobile {
-  padding: 30px;
+#education h2 {
+  margin-bottom: 10px;
 }
 
-
-#educationUni p, #educationMobile p {
-  color: #fff;
+.project-content {
+  /* padding: 30px; */
   text-align: center;
 }
 
+.project-content img {
+  width: 80%;
+  height: 130px;
+}
+
+.project-content h4, p {
+  color: #fff;
+  text-align: center;
+}
+.fa-external-link-alt {
+  text-decoration: none;
+  color: #fff;
+}
 #education h1 {
   color: #fff;
   text-align: center;
 }
 
-#education div {
+#education .project-content {
   width: 50%;
+  margin-bottom: 15px;
   float: left;
+  overflow: hidden;
 }
+
 
 #contact-form {
   border-radius: 5px;
-  background-color: #1d1d45;
   padding: 20px;
   float: none;
+  width: 50%;
+  margin: auto;
 }
 
 #contact-form input {
@@ -231,11 +247,8 @@ label {
     border-bottom: none;
   }
 
-  #educationUni, #educationMobile {
-    background: grey;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    box-shadow: 2px 3px  #1d1d45;
+  #contact-form {
+    width: 100%;
   }
 
   #social-icons, #copyright {
@@ -254,7 +267,7 @@ label {
     opacity: .6; */
   }
 
-  #education div {
+  #education .project-content {
     width: 100%;
     float: none;
     padding-top: 15px;
