@@ -246,6 +246,10 @@ label {
     border-bottom: none;
   }
 
+  .project-content img {
+    height: 100px;
+  }
+
   #contact-form {
     width: 100%;
   }
