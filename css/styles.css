@@ -98,10 +98,9 @@ text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 
 
 #content .content-inner {
   display: inline-block;
-  width: 49.8%;
+  /* width: 49.8%; */
+  width: 30%;
   padding-top: 30px;
-  /* background: #1d1d45;
-  opacity: .6; */
 }
 
 #content .top-gap {
