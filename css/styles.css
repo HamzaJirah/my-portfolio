@@ -284,9 +284,9 @@ label {
     float: none;
   }
 
-  .contact .embed{
-    margin: 15px;
-    padding-right: 10px;
+  .embed a{
+    position: relative;
+    max-width: 200px;
   }
   .contact #contact-form{
     margin-left: 1px;
