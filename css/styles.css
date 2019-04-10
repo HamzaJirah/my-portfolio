@@ -281,8 +281,7 @@ label {
   }
 
   .contact .embed{
-    margin-left: 5px;
-    margin-top: 5px;
+    margin: 15px;
   }
   .contact #contact-form{
     margin-left: 1px;
