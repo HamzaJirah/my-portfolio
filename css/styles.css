@@ -48,7 +48,7 @@ ul li {
 /* Banner */
 #banner {
   background: linear-gradient(#1d1d45, rgb(213, 213, 222));
-  border-radius: 0 0 50%/100px 0px;
+  border-radius: 0 0 80%/80px 0px;
   padding: 100px;
   box-shadow: 8px 8px #1d1d45;
 }
