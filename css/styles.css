@@ -151,14 +151,23 @@ text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 
   float: left;
   overflow: hidden;
 }
-
-
+.contact{
+  margin: auto;
+  background: linear-gradient(#1d1d45, #fff);
+  overflow: hidden;
+}
+.contact .twitter-feed{
+  float: left;
+  width: 40%;
+}
+.embed{
+  margin-top: 48px;
+  margin-left: 20px;
+}
 #contact-form {
   border-radius: 5px;
   padding: 20px;
-  float: none;
-  width: 50%;
-  margin: auto;
+  margin-left: 80px;
 }
 
 #contact-form input {
@@ -195,10 +204,10 @@ button {
 label {
   color: #fff;
 }
-
 /* Footer */
 #footer {
   padding: 5px;
+  overflow: hidden;
 }
 
 #footer span {
@@ -247,10 +256,6 @@ label {
     height: 100px;
   }
 
-  #contact-form {
-    width: 100%;
-  }
-
   #social-icons, #copyright {
     float: left;
     width: 100%;
@@ -269,5 +274,17 @@ label {
     width: 100%;
     float: none;
     padding-top: 15px;
+  }
+  .contact .twitter-feed{
+    width: 100%;
+    float: none;
+  }
+
+  .contact .embed{
+    margin-left: 100px;
+    margin-top: 5px;
+  }
+  .contact #contact-form{
+    margin-left: 1px;
   }
 }
