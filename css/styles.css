@@ -266,7 +266,7 @@ label {
 @media (max-width:850px){
   #content .content-inner {
     display: inline-block;
-    width: 100%;
+    width: 46%;
     padding-top: 35px;
   }
 
@@ -275,6 +275,10 @@ label {
     float: none;
     padding-top: 15px;
   }
+
+  span h3, .fas, .fab{
+    font-size: 12px;
+  }
   .contact .twitter-feed{
     width: 100%;
     float: none;
@@ -282,6 +286,7 @@ label {
 
   .contact .embed{
     margin: 15px;
+    padding-right: 10px;
   }
   .contact #contact-form{
     margin-left: 1px;
