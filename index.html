@@ -1,196 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="title" content="Jirah Hamza Ibrahim">
-  <meta name="description" content="Hamza Jirah Portfolio website">
-  <meta name="keywords" content="Jirah, Hamza, Ibrahim, portfolio website, web developer, abuja, nigeria">
-  <meta name="robots" content="index, follow">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="language" content="English">
-  <meta name="author" content="Jirah Hamza Ibrahim">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>JIRAH HAMZA IBRAHIM</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-  <style>
-    .content-inner div {
-      margin: 5px auto;
-      clear: both;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <title>Home</title>
 </head>
 <body>
-  <!-- start of wrapper div -->
-  <div id="#Home"></div>
-  <div id="wrapper">
-    <!-- navbar -->
-    <div id="navbar-background">
-      <div id="navbar">
-        <div id="menu">
+  <!-- Hamburger Menu -->
+  <div class="menu-wrap">
+    <input type="checkbox" class="toggler">
+    <div class="hamburger"><div></div></div>
+    <div class="menu">
+      <div>
+        <div>
           <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Technologies">Technologies</a></li>
-            <li><a href="#Project">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><i class="fas fa-code"></i> <a href="#Technologies">Technologies</a></li>
+            <li><i class="fas fa-project-diagram"></i> <a href="#Projects">Projects</a></li>
+            <li><i class="fas fa-address-card"></i> <a href="#Contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
+  </div> 
 
-    <!-- banner -->
-    <div id="banner">
-      <h1>JIRAH HAMZA IBRAHIM</h1>
-      <section class="stack">WEB DEVELOPER</section>
-      <a href="https://drive.google.com/file/d/1uRPk8gFiUNek0sFcUM3ct4eOsnO48Z-F/view?usp=sharing" target="_blank">Resume</a>
+  <!-- Banner Area -->
+  <header class="showcase">
+    <div class="container showcase-inner">
+      <img src="img/photo.png" alt="profile photo">
+      <h1>Jirah Hamza Ibrahim</h1>
+      <p>Mobile/Web Developer</p>
+      <a href="" class="btn">View/Download Resume`</a>
     </div>
+  </header>
 
-    <!-- content -->
-    <div id="content">
-      <a name="Technologies"></a>
-      <h2 style="font-size: 1.8em;">TECHNOLOGIES</h2>
-      <span class="content-inner">
-        <h3>HTML</h3>
-        <i class="fab fa-html5" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner">
-        <h3>CSS</h3>
-        <i class="fab fa-css3" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner top-gap">
-        <h3>JavaScript</h3>
-        <i class="fab fa-js-square" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner top-gap">
-        <h3>jQuery</h3>
-        <i class="fab fa-js" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner top-gap">
-        <h3>PhoneGap</h3>
-        <i class="fas fa-mobile-alt" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner top-gap">
-        <h3>Bootstrap/Materialize CSS</h3>
-        <i class="fas fa-globe" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner top-gap">
-        <h3>WordPress</h3>
-        <i class="fab fa-wordpress" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner top-gap">
-        <h3>Node JS</h3>
-        <i class="fab fa-node-js" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner top-gap">
-        <h3>MongoDB</h3>
-        <i class="fas fa-database" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner top-gap">
-        <h3>Git</h3>
-        <i class="fab fa-git-square" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner top-gap">
-        <h3>GitHub</h3>
-        <i class="fab fa-github" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
-      <span class="content-inner top-gap">
-        <h3>BitBucket</h3>
-        <i class="fab fa-bitbucket" style="display: block; margin: 5px auto; color: white; font-size: 3em;"></i>
-      </span>
+  <!-- Technologies -->
+  <a name="Technologies"></a>
+  <div class="tech-wrap">
+    <h1>Technologies</h1>
+    <div class="technologies">
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3"></i>
+      <i class="fab fa-js-square"></i>
+      <i class="fas fa-mobile"></i>
+      <i class="fab fa-wordpress"></i>
+      <i class="fab fa-node-js"></i>
+      <i class="fas fa-database"></i>
+      <i class="fab fa-git"></i>
+      <i class="fab fa-github"></i>
+      <i class="fab fa-bitbucket"></i>
     </div>
-
-    <!-- Projects -->
-    <a name="Project"></a>
-    <div id="education">
-      <h2>PROJECTS</h2>
-      <div class="project-content youthmobile">
-        <img src="images/youthmobile.png">
-        <div>
-          <h4>YouthMobile Abuja</h4>
-          <p>Students mobile apps apk files website</p>
-          <a href="http://youthmobile.mcandersonassociates.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        </div>
-      </div>
-      <div class="project-content ngo-academy">
-        <img src="images/ngo-academy.png">
-        <div>
-          <h4>NGO Academy</h4>
-          <p>A WordPress website co-developed for an NGO</p>
-          <a href="http://ngoacademy.mcandersonassociates.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        </div>
-      </div>
-      <div class="project-content lesson-plan">
-        <img src="images/lesson-plan.png">
-        <div>
-          <h4>Lesson Plan</h4>
-          <p>A web app for teachers' lesson planning</p>
-          <a href="https://salty-harbor-75879.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        </div>
-      </div>
-      <div class="project-content report-books">
-        <img src="images/report-books.png">
-        <div>
-          <h4>Report Books</h4>
-          <p>A web app for teachers duty report</p>
-          <a href="https://infinite-sierra-62571.herokuapp.com/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="contact">
-      <!-- Contact -->
-      <a name="Contact"></a>
-      <div id="contact-form" class="twitter-feed">
-        <h3>Send Message</h3>
-        <form name="contact" action="/pages/success.html" netlify>
-          <p>
-            <input type="text" name="name" placeholder="Name"/>
-          </p>
-          <p>
-            <input type="email" name="email" placeholder="Email"/>
-          </p>
-          <p>
-            <textarea name="message" placeholder="Message"></textarea>
-          </p>
-          <p>
-            <button type="submit">Submit</button>
-          </p>
-        </form>
-      </div>
-
-      <!-- Twitter Feed -->
-      <div class="twitter-feed embed">
-        <a class="twitter-timeline" data-width="400" data-height="200" href="https://twitter.com/HamzaJirah1?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      </div>
-    </div>
-
-    <!-- footer -->
-    <div id="footer">
-      <div id="social-icons">
-        <span id="facebook">
-          <a href="https://www.facebook.com/hamzajirah" target="_blank"><i class="fab fa-facebook-square" style="color: #fff; display: block; margin: 5px auto; font-size: 2em; text-align: center;"></i></a>
-        </span>
-        <span id="twitter">
-          <a href="https://www.twitter.com/hamzajirah1" target="_blank"><i class="fab fa-twitter-square" style="color: #fff; display: block; margin: 5px auto; font-size: 2em; text-align: center;"></i></a>
-        </span>
-        <span id="github">
-          <a href="https://www.github.com/hamzajirah" target="_blank"><i class="fab fa-github" style="color: #fff; display: block; margin: 5px auto; font-size: 2em; text-align: center;"></i></a>
-        </span>
-        <span id="bitbucket">
-          <a href="https://bitbucket.org/IbrahimJirah/" target="_blank"><i class="fab fa-bitbucket" style="color: #fff; display: block; margin: 5px auto; font-size: 2em; text-align: center;"></i></a>
-        </span>
-        <span id="linkedin">
-          <a href="https://www.linkedin.com/in/hamzajirah/" target="_blank"><i class="fab fa-linkedin" style="color: #fff; display: block; margin: 5px auto; font-size: 2em; text-align: center;"></i></a>
-        </span>
-      </div>
-      <div id="copyright">
-        <p>&copy; Jirah Hamza Ibrahim</p>
-      </div>
-    </div>
-    <!-- end of footer -->
   </div>
-  <!-- end of wrapper div -->
-  <script src="node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+
+  <!-- Projects -->
+  <a name="Projects"></a>
+  <div class="projects-wrap">
+    <h1>Projects</h1>
+    <div class="projects">
+      <div class="flex-item">
+        <a href="http://youthmobile.mcandersonassociates.com/" target="_blank"><img src="img/youthmobile.png" alt="youthmobile"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="flex-item">
+        <a href="http://ngoacademy.mcandersonassociates.com/contact/" target="_blank"><img src="img/ngo-academy.png" alt="ngo-academy"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="flex-item">
+        <a href="https://salty-harbor-75879.herokuapp.com/" target="_blank"><img src="img/lesson-planner.png" alt="lesson-planner"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+      <div class="flex-item">
+        <a href="https://infinite-sierra-62571.herokuapp.com/" target="_blank"><img src="img/report-books.png" alt="report-books"><i class="fas fa-external-link-alt"></i></a>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Contact -->
+  <a name="Contact"></a>
+  <div class="contact">
+    <div id="contact-form">
+      <h3>Send Message</h3>
+      <form name="contact" action="/pages/success.html" netlify>
+        <p>
+          <input type="text" name="name" placeholder="Name"/>
+        </p>
+        <p>
+          <input type="email" name="email" placeholder="Email"/>
+        </p>
+        <p>
+          <textarea name="message" placeholder="Message"></textarea>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </div>
+    <div id="twitter-timeline">
+      <a class="twitter-timeline" data-width="500" data-height="250" href="https://twitter.com/HamzaJirah1?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Ibrahim Jirah Hamza &copy; 2019</p>
+  </div>
 </body>
 </html>
