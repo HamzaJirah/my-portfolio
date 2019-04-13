@@ -40,7 +40,6 @@ body{
   z-index: -1;
 }
 
-
 .showcase .showcase-inner{
   display: flex;
   flex-direction: column;
@@ -91,6 +90,7 @@ body{
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 10px;
+  padding: 30px;
 
 }
 
@@ -116,11 +116,7 @@ body{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 100px;
-}
-
-.projects > .flex-item{
-  width: 180px;
+  padding: 60px;
 }
 
 .flex-item{
@@ -128,13 +124,11 @@ body{
 }
 
 .flex-item > a > img{
-  width: 220px;
-  height: 110px;
+  width: 240px;
+  height: 120px;
+  flex-wrap: wrap;
 }
 
-.flex-item  a{
-  margin: 10px;
-}
 
 .flex-item > a{
   text-decoration: none;
@@ -145,14 +139,17 @@ body{
 .contact{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding-bottom: 40px;
 }
 
+.contact div{
+  width: 550px;
+  padding: 20px; 
+}
 #contact-form {
   border-radius: 5px;
-  padding: 20px;
-  width: 600px;
-  
+
 }
 
 #contact-form > h3{
@@ -195,6 +192,10 @@ label {
 }
 
 .footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
   background-color: var(--overlay-color);
   padding: 15px;
   position: fixed;
@@ -202,9 +203,17 @@ label {
   width: 100%;
 }
 
-.footer > p{
+.footer a{
+  text-decoration: none;
   color: #fff;
-  text-align: center;
+  /* width: 60px; */
+  font-size: 2rem;
+}
+
+.footer > p{
+  align-self: flex-end;
+  justify-self: flex-end;
+  color: #fff;
 }
 /* Responsive Design i.e media query */
 @media (max-width: 500px){
@@ -216,5 +225,11 @@ label {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+  }
+}
+
+@media (min-width: 718px) and (max-width: 960px){
+  .contact div{
+    width: 350px;
   }
 }
