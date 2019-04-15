@@ -89,9 +89,12 @@ body{
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  /* margin: 10px; */
-  padding: 30px;
+  padding: 0 0 40px 0;
 
+}
+
+.tech-wrap h1{
+  margin-top: 45px;
 }
 
 .technologies > i{
@@ -110,7 +113,7 @@ body{
 /* Projects */
 .projects-wrap{
   background-color: var(--primary-color);
-  border-radius: 80%/100px 0;
+  border-radius: 0 40%/30px;
 }
 
 .projects-wrap > h1{
@@ -120,18 +123,19 @@ body{
 }
 .projects{
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  text-align: center;
   flex-wrap: wrap;
-  padding: 60px;
+  padding: 20px;
 }
-
 .flex-item{
   display: flex;
 }
 
 .flex-item > a > img{
   width: 230px;
-  height: 120px;
+  height: 115px;
   flex-wrap: wrap;
 }
 
