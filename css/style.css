@@ -130,7 +130,7 @@ body{
 }
 
 .flex-item > a > img{
-  width: 240px;
+  width: 230px;
   height: 120px;
   flex-wrap: wrap;
 }
@@ -150,7 +150,7 @@ body{
 }
 
 .contact div{
-  width: 550px;
+  width: 500px;
   padding: 20px; 
 }
 
